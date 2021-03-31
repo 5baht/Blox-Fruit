@@ -3326,7 +3326,7 @@ local win = VLib:Window("5baht", "Blox Fruit", Color3.fromRGB(252, 83, 83))
        Raids:line()
        Raids:Label("Use In Raid Only",true)
        Distance = 500
-       Raids:Toggle("Kill Arua",false,function(value)
+       Raids:Toggle("Kill Aura",false,function(value)
           if newworld then
              RaidsArua = value
           elseif OldWorld then
